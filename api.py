@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import streamlit as st
-import pyttsx3
+# import pyttsx3
 
     
     
@@ -50,14 +50,14 @@ if st.button("𝐒𝐞𝐚𝐫𝐜𝐡"):
     st.markdown(f"""𝓒𝓾𝓻𝓻𝓮𝓷𝓽 𝓬𝓸𝓷𝓭𝓲𝓽𝓲𝓸𝓷 : :orange[{Currentcondition}]\n """)
     st.markdown(f"""𝓦𝓲𝓷𝓭 𝓼𝓹𝓮𝓮𝓭 : :red[{Windspeed}]\n """)
     st.markdown(f"""𝓗𝓾𝓶𝓲𝓭𝓲𝓽𝔂 : :violet[{Humidity}] """)
-    print(f"city : {Cityname}")
-    print(f"temprature : {Temprature}")
-    engine = pyttsx3.init()
-    engine.setProperty('rate', 125)
-    voices = engine.getProperty('voices') 
-    engine.setProperty('voice', voices[1].id)
-    engine.say(f"the temprature of {Cityname} is {Temprature}")
-    engine.runAndWait()
+    # print(f"city : {Cityname}")
+    # print(f"temprature : {Temprature}")
+    # engine = pyttsx3.init()
+    # engine.setProperty('rate', 125)
+    # voices = engine.getProperty('voices') 
+    # engine.setProperty('voice', voices[1].id)
+    # engine.say(f"the temprature of {Cityname} is {Temprature}")
+    # engine.runAndWait()
     
 
 
